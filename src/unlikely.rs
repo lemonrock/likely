@@ -2,12 +2,12 @@
 // Copyright © 2018 The developers of likely. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/lemonrock/likely/master/COPYRIGHT.
 
 
-/// likely.
+/// unlikely.
 #[macro_export]
 macro_rules! unlikely
 {
 	($expr: expr) =>
 	{
-		unsafe { ::std::intrinsics::unlikely($expr) }
+		::std::intrinsics::unlikely($expr)
 	}
 }
