@@ -9,12 +9,11 @@ keywords = ["likely"]
 categories = ["hardware-support"]
 license = "MIT"
 authors = ["Raphael Cohn <raphael.cohn@stormmq.com>"]
-documentation = "https://github.com/lemonrock/likely/blob/master/README.md"
 homepage = "https://github.com/lemonrock/likely"
 repository = "https://github.com/lemonrock/likely.git"
 exclude = ["*"]
 include = ["README.md", "LICENSE", "COPYRIGHT", "src/**/*.rs", "Cargo.toml", "rustfmt.toml", "clippy.toml"]
-# Relative to Cargo.toml
 readme = "README.md"
+edition = "2018"
 publish = true
 version = "0.2.0"
